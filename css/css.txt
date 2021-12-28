@@ -1,0 +1,19 @@
+cascading stylesheet
+selector{
+    property:value;
+}
+
+body{
+    background: rgb(2, 44, 44);
+}
+
+
+max-width: 50%; 
+for responsive image size
+
+height:auto;
+this adjust height according to width
+
+font-weight:bold sold normal
+
+margin TRBL

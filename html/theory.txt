@@ -1,0 +1,4 @@
+html hypertext markup language--semantic language(give meaning to code)
+consists of tags 
+these tags tell the browser how to behave on a certain feature.
+

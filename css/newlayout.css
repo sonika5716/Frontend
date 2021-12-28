@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+}
+body{
+    background: rgb(2, 44, 44);
+}
+.newnewlayout{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* this disable overlapping or hiding so allows the element to the new section and yes like alt z */
+}
+.newnewlayout div{
+    background: rgb(58, 63, 63);
+    flex-basis: 100px;
+    /* width: 200px; */
+    height: 50px;
+    border: 2px solid rgb(172, 184, 240);
+    margin: 10px;
+}
+.first{
+    flex-shrink: 0; 
+    /* kati samma shrink hune bhancha according to width of the displa */
+}
+.second{
+    flex-shrink: 0;
+}
+#parent{
+    display: flex;
+    justify-content: center;
+    /* flex-start flex-end center */
+    /*centers on the main axis i.e. left to right */
+    align-items: center;
+    /* flex-start flex-end center */
+
+    /* centers on the secondary axis i.e. top to bottom */
+    background: rgb(75, 163, 235);
+    width: 100vw;
+    height: 50vh;
+}
+
+.child{
+    background: rgb(6, 72, 129);
+    width: 20vw;
+    height: 10vh;
+    margin: 5px;
+}
+

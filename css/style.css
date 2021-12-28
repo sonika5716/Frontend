@@ -1,0 +1,22 @@
+body{
+    background: rgb(2, 44, 44);
+}
+.name{
+    background:rgb(4, 14, 59);
+    color: rgb(75, 163, 235);
+   display: inline;
+    border-radius: 45% ;
+    font-weight:lighter;
+}
+.span{
+    background: rgb(58, 63, 63);
+    color: rgb(1, 26, 1);
+    border-radius: 19% ;
+    font-weight: bold;
+    color: wheat;
+}
+.third{
+    font-size: 17px;
+    font-weight: bold;
+    color: whitesmoke;
+}
