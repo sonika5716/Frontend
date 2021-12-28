@@ -21,8 +21,7 @@ nav ul li{
     height: 200px;
     background: red;
 }
-.layer{
-    background: rgb(105, 30, 105);
+.layer{  
     width: 100%;
     padding: 10px 5px;
     border-bottom: 2px solid gray;
