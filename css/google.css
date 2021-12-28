@@ -1,16 +1,43 @@
 *{
     margin: 0;
 }
+
 body{
-    min-height: 100vh;
+    min-height: 200vh;
     display: flex;
     flex-direction: column;
+}
+
+nav, footer{
+    flex-shrink: 0;
+}
+
+section{
+    flex-grow: 1;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: relative;
+}
+section span{
+    position: fixed;
+    /* not the parent element but only screen */
+    background: blue;
+    color: white;
+    bottom: 0px;
+    right: 0px;
+    width: 100px;
+    height: 100px;
+    /* position: relative; */
+    /* allows to give manual position using top left.. */
+
 }
 nav ul{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 }
+
 nav ul li{
     list-style: none;
     padding: 10px;
@@ -22,16 +49,9 @@ nav ul li{
     background: red;
 }
 .layer{  
+    background: gray;
     width: 100%;
     padding: 10px 5px;
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid rgb(155, 148, 148);
 }
-nav, footer{
-    flex-shrink: 0;
-}
-section{
-    flex-shrink: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
